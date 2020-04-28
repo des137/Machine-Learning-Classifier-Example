@@ -20,7 +20,18 @@ The real motivation to study this particular problem is to show the end-to-end p
 
 ## <a name="results">Results</a>
 
+Learning curve provides an overview of Model's performance. It plots the model score as a function of the training set size.
+The cross-validation does not seem to increase, so there's no need for an additional data for model generalization.
+
+<p align="center">
+  <img src="https://github.com/des137/MarketingClassification/blob/master/images/learn_curve.png" width="650">
+</p>
+
 Among the machine learning models that were tested on this particular dataset, not so surprisingly, Light Gradient Boosting framework produced the best results. Obtained: **Gini = 0.87**, or equivalently, **AUC = 0.93**. 
+
+<p align="center">
+  <img src="https://github.com/des137/MarketingClassification/blob/master/images/roc_auc.png" width="450">
+</p>
 
 The metrics/accuracy of the model is equivalent to the [an analysis](https://core.ac.uk/download/pdf/55616194.pdf) performed using CRISP-DM methodology.
 
