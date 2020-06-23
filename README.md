@@ -1,3 +1,4 @@
+s
 # MarketingClassification
 
 ## Contents
@@ -19,6 +20,12 @@ One of the motivation to study this particular problem is to show the end-to-end
 'sklearn' is a remarkably well designed library which let's one quickly prototype a data flow pipeline and test a variety of machine learning models, by chaining a set of *Estimators*, *Transformers*, and *Predictors*. [This notebook](https://nbviewer.jupyter.org/github/des137/MarketingClassification/blob/master/Model.ipynb) demonstrates the applications of the pipeline feature. 10 different models were tested on this particular dataset.
 
 ## <a name="results">Results</a>
+
+Business decision usually provides a better context for deciding how many False Positives vs. False Negatives are acceptable. Here's a plot between precision, recall, and f1 score plotted against various thresholds: 
+
+<p align="center">
+  <img src="https://github.com/des137/MarketingClassification/blob/master/images/thresholds.png" width="650">
+</p>
 
 Learning curve provides an overview of Model's performance. It plots the model score as a function of the training set size.
 The cross-validation does not seem to increase, so there's no need for an additional data for model generalization.
