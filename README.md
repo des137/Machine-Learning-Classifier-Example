@@ -24,7 +24,7 @@ One of the motivation to study this particular problem is to show the end-to-end
 Business decision usually provides a better context for deciding how many False Positives vs. False Negatives are acceptable. Here's a plot between precision, recall, and f1 score plotted against various thresholds: 
 
 <p align="center">
-  <img src="https://github.com/des137/MarketingClassification/blob/master/images/thresholds.png" width="650">
+  <img src="https://github.com/des137/MarketingClassification/blob/master/images/threshold.png" width="450">
 </p>
 
 Learning curve provides an overview of Model's performance. It plots the model score as a function of the training set size.
