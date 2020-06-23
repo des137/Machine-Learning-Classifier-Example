@@ -21,7 +21,7 @@ One of the motivation to study this particular problem is to show the end-to-end
 
 ## <a name="results">Results</a>
 
-Business decision usually provides a better context for deciding how many False Positives vs. False Negatives are acceptable. Here's a plot between precision, recall, and f1 score plotted against various thresholds: 
+Business decision usually provides a better context for deciding how many False Positives vs. False Negatives are acceptable. Below is a plot between precision, recall, and f1 score plotted against various thresholds: 
 
 <p align="center">
   <img src="https://github.com/des137/MarketingClassification/blob/master/images/threshold.png" width="550">
