@@ -10,29 +10,11 @@ from sklearn.metrics import classification_report, confusion_matrix
 
 
 def input_data(DATA_PATH='../data/bank-full.csv'):
-    '''
-    Inputs the data
-
-    Args:
-        DATA_PATH: location of the data
-
-    Returns:
-        df
-    '''
     df = pd.read_csv(DATA_PATH, sep=';')
     return df
 
 
 def train_test_data(df):
-    '''
-    Creates test train split
-
-    Args:
-        df: dataframe
-
-    Returns:
-        X_train, X_test, y_train, y_test
-    '''
     X = df.drop('y', axis=1)
     y = df['y']
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
